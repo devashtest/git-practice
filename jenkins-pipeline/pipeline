@@ -19,4 +19,6 @@ sh "mvn clean package"
 } // pipeline closing
 
 
-// line addes by stage branch, to test merge
+// line added by stage branch, to test merge
+
+// line added by master branch, to test merge
