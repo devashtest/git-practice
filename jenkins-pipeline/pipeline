@@ -17,3 +17,6 @@ sh "mvn clean package"
 
 } // stages closing
 } // pipeline closing
+
+
+// line addes by stage branch, to test merge
