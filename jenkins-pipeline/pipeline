@@ -1,0 +1,19 @@
+pipeline{
+
+agent any
+
+stages{
+stage('sourcecode'){
+steps{
+}
+}
+
+stage('build'){
+steps{
+sh "mvn clean package"
+}
+}
+
+
+} // stages closing
+} // pipeline closing
